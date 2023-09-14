@@ -1,5 +1,5 @@
-const user = [];
-user.push(prompt(`Enter your name`));
-user.push(Number(prompt(`Enter your age`)));
-console.log(user);
-console.log(user.pop());console.log(user);
+let userNumber = Number(prompt(`Enter number`));
+let i = 0;
+while (i <= userNumber) {
+    console.log(i++);
+}
